@@ -1,0 +1,22 @@
+Node Commands
+    Node -v (Gives you version number)
+    nvm (Changes version of node) 
+                NOTE: Only works on mac
+        Example: nvm install 9.5
+                This will install Node 9.5.0
+    nvm install --lts (Installs the latest version)
+    nvm use -version number- 
+        This will change the version of node you are using, if you have it installed 
+     nvm alias defult -version number-
+        This will set the defult version of node to that version  
+            NOTE: if you close a command prompt, it will put the version of node back to the first version you installed
+
+NPM Setup Commands
+    npm init (sets up your library)
+    npm install --save express
+        NOTE: the ^ behind the version number means it will update 10 4.xx.x
+              If there is a ~, it will update to 4.15.x
+    npm install chalk (installs chalk)
+
+
+
